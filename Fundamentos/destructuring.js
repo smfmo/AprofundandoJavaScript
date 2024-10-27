@@ -5,7 +5,9 @@ const pessoa = {
     idade: 19,
     endereco: {
         logradouro: 'rua xexeu',
-        numero: 1000
+        numero: 1000,
+        cep: 72860515
+        
     }
 }
 
@@ -19,4 +21,4 @@ const {sobrenome, bemHumorado = true} = pessoa //se caso extrair uma variável i
 console.log(sobrenome, bemHumorado)
 
 const {endereco: {logradouro, numero, cep}} = pessoa //extrair de de um objeto dentro de outro objeto 
-console.log(logradouro, numero, cep)
+console.log(logradouro, numero, cep, complemento)
