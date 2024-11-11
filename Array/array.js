@@ -22,6 +22,6 @@ console.log(aprovados[1])
 console.log(aprovados[2])
 
 aprovados = ['Samuel', 'Maria clara', 'joao lucas']
-aprovados.splice() // Splice serve para adicionar elementos num determinado índice, como também para remover remover elementos de um array e tambem remover e adicionar elementos.
+aprovados.splice() // Splice serve para adicionar elementos num determinado índice, como também para remover elementos de um array e tambem remover e adicionar elementos.
 aprovados.splice(1, 0, 'jurubeba', 'caguei') // o primeiro parametro significa o item q vai ser trabalhado e o segundo o item q vai ser excluído, e o terceiro parametro será o que vai adicionar.
 console.log(aprovados)
