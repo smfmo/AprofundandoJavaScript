@@ -5,7 +5,7 @@ const alunos = [
     {'Gabriel': 6.00, aprovado: true}
 ]
 
-const media = nota => nota.reprovado < 5
+const media = nota => nota.aprovado <= 10
 
 console.log(alunos.filter(media))
 
